@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "QA Project Example Back End",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --exit tests",
+    "coverage": "nyc npm test"
+  },
+  "author": "Anoush Lowton",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "mongodb": "^5.4.0",
+    "mongoose": "^7.1.0",
+    "nyc": "^15.1.0"
+  }
+}
